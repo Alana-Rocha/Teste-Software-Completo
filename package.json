@@ -11,9 +11,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.17.4"
+    "@types/node": "^20.5.1",
+    "cypress": "^12.17.4",
+    "cypress-xpath": "^2.0.1"
   },
   "dependencies": {
-    "cypress-xpath": "^2.0.1"
+    "@testing-library/cypress": "^9.0.0"
   }
 }

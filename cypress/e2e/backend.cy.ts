@@ -63,8 +63,7 @@ describe("Should test at a functional level", () => {
     cy.get("@response").then((res: any) => {
       console.log(res);
       expect(res.status).to.be.equal(400);
-      expect(res.body).to.have.property("id");
-      expect(res.body).to.have.property("nome", "Conta via rest");
+      expect(res.body.error).to.be.equal("Já existe uma conta com esse nome!");
     });
   });
   it("Should crete an account with same name", () => {});
