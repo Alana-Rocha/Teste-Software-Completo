@@ -13,6 +13,8 @@ declare global {
       xpathBtnAlterar(nome: string): Chainable<string>;
       xpathBtnRemoveConta(conta: string): Chainable<string>;
       resetApp(): Chainable<void>;
+      getAccountByName(nome: string): Chainable<any>;
+      request(originalFn: any, ...options: any): Chainable<any>;
     }
   }
 }
