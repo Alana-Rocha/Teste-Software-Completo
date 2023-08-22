@@ -17,3 +17,4 @@ Cypress.Commands.add("xpathBtnRemoveConta", (conta: string) => {
   const xpathBtnRemoveConta = `//span[contains(., '${conta}')]/../../..//i[@class='far fa-trash-alt']`;
   cy.xpath(xpathBtnRemoveConta);
 });
+

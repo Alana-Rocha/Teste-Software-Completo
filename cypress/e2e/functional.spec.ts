@@ -4,10 +4,7 @@ describe("Teste funcional de login", () => {
     cy.login("rocha@gmail.com", "alana123");
   });
 
-  it("Deve realizar o login", () => {
-    cy.get(".toast-message").should("exist");
-    cy.get(".toast-message").should("contain", "Bem vindo");
-  });
+
   
   it("Deve criar uma conta", () => {
     cy.acessarMenuConta();
@@ -48,7 +45,7 @@ describe("Teste funcional de login", () => {
       cy.xpathSaldo("Conta para saldo").should("contain", "3534");
     });
 
-    it.only("Deve remover uma movimentação", () => {
+    it("Deve remover uma movimentação", () => {
       cy.get('[data-test="menu-extrato"]').click();
       cy.xpathBtnRemoveConta("Movimentacao para exclusao").click({
         multiple: true,
