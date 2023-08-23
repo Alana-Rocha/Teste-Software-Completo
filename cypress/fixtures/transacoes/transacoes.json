@@ -1,0 +1,16 @@
+{
+    "conta": "Conta para saldo",
+    "id": 1757044,
+    "descricao": "Movimentacao 1, calculo saldo",
+    "envolvido": "CCC",
+    "observacao": null,
+    "tipo": "REC",
+    "data_transacao": "2023-08-23T03:00:00.000Z",
+    "data_pagamento": "2023-08-23T03:00:00.000Z",
+    "valor": "3500.00",
+    "status": false,
+    "conta_id": 1875194,
+    "usuario_id": 40621,
+    "transferencia_id": null,
+    "parcelamento_id": null
+}

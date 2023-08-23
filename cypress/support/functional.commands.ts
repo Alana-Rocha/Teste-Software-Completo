@@ -14,6 +14,8 @@ Cypress.Commands.add("inserirConta", (conta: string) => {
   cy.get(".btn").click();
 });
 
+
+
 Cypress.Commands.add("resetApp", () => {
   cy.get("[data-test=menu-settings]").click();
   cy.get('[href="/reset"]').click();

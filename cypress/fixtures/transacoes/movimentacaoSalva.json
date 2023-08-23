@@ -1,0 +1,15 @@
+{
+    "id": 1757210,
+    "descricao": "teste",
+    "envolvido": "int",
+    "observacao": null,
+    "tipo": "REC",
+    "data_transacao": "2023-08-23T03:00:00.000Z",
+    "data_pagamento": "2023-08-23T03:00:00.000Z",
+    "valor": "586.00",
+    "status": false,
+    "conta_id": 1875190,
+    "usuario_id": 40621,
+    "transferencia_id": null,
+    "parcelamento_id": null
+}

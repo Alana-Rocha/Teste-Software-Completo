@@ -13,8 +13,12 @@ Cypress.Commands.add("xpathBtnAlterar", (nome: string) => {
   cy.xpath(xpathBtnAlterar);
 });
 
-Cypress.Commands.add("xpathBtnRemoveConta", (conta: string) => {
+Cypress.Commands.add("xpathAlterarElemento", (conta) => {
+  const xpathAlterarElemento = `//span[contains(., '${conta}')]/../../..//i[@class='fas fa-edit']`;
+  cy.xpath(xpathAlterarElemento);
+});
+
+Cypress.Commands.add("xpathBtnRemoveElemento", (conta: string) => {
   const xpathBtnRemoveConta = `//span[contains(., '${conta}')]/../../..//i[@class='far fa-trash-alt']`;
   cy.xpath(xpathBtnRemoveConta);
 });
-
