@@ -1,11 +1,11 @@
 [{
     "conta_id": 12345,
     "conta": "Carteira",
-    "saldo": "4034,00"
+    "saldo": "4034.00"
 
 }, 
 {
     "conta_id": 12346,
     "conta": "Banco",
-    "saldo": "100980000.00"
+    "saldo": "100.980.000,00"
 }]

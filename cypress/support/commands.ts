@@ -25,6 +25,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 //
+
 Cypress.SelectorPlayground.defaults({
   selectorPriority: [
     "data-cy",
@@ -38,6 +39,7 @@ Cypress.SelectorPlayground.defaults({
     "nth-child",
   ],
 });
+
 // declare global {
 //   namespace Cypress {
 //     interface Chainable {

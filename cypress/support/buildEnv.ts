@@ -25,7 +25,7 @@ const buildEnv = () => {
       url: "https://barrigarest.wcaquino.me/contas",
     },
     {
-      fixture: "contas2.json",
+      fixture: "contasEnv.json",
     }
   ).as("contas");
 
@@ -35,7 +35,7 @@ const buildEnv = () => {
       url: "https://barrigarest.wcaquino.me/extrato/**",
     },
     {
-      fixture: "movimentacaoSalva.json",
+      fixture: "extrato.json",
     }
   );
 };

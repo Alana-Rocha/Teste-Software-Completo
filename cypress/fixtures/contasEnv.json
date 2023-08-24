@@ -1,0 +1,13 @@
+[{
+    "id": 1, 
+    "nome": "Carteira", 
+    "visivel": true, 
+    "usuario_id": 1
+}, 
+{
+    "id": 1, 
+    "nome": "Banco", 
+    "visivel": true, 
+    "usuario_id": 1
+}
+]
