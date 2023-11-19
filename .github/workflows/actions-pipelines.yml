@@ -29,5 +29,5 @@ jobs:
 
       - name: SonarCloud Scan
         run: |
-          npm install -g sonarcloud
+          npm install -g sonarqube-scanner
           sonar-scanner -Dsonar.login=lucasespassini_Cypress---seu-barriga
