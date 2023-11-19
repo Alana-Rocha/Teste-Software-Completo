@@ -30,7 +30,4 @@ jobs:
       - name: SonarCloud Scan
         run: |
           npm install -g sonarcloud
-          sonar-scanner -Dsonar.login=${{ secrets.SONAR_TOKEN }}
-
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          sonar-scanner -Dsonar.login=lucasespassini_Cypress---seu-barriga
