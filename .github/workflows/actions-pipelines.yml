@@ -30,4 +30,4 @@ jobs:
       - name: SonarCloud Scan
         run: |
           npm install -g sonarqube-scanner
-          sonar-scanner -Dsonar.login=lucasespassini_Cypress---seu-barriga
+          sonar-scanner -Dsonar.login=lucasespassini_Cypress---seu-barriga -Dsonar.host.url=http://localhost:9000
