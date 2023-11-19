@@ -1,5 +1,5 @@
 function calcularSoma(a: number, b: number) {
-  var resultado = a + b;
+  let resultado = a + b;
   console.log("O resultado é: " + resultado);
 }
 
@@ -12,14 +12,14 @@ function verificarNumeroPar(numero: number) {
 }
 
 function exemploMásPraticas() {
-  for (var i = 0; i < 10; i++) {
+  for (let i = 0; i < 10; i++) {
     console.log("Iteração " + i);
   }
 
-  var array = [1, 2, 3];
+  let array = [1, 2, 3];
   console.log(array[3]);
 
-  var objeto: any = {};
+  let objeto: any = {};
   objeto.propriedade1 = 1;
   objeto.propriedade2 = 2;
 
