@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "open": "cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,8 @@
   "devDependencies": {
     "@types/node": "^20.5.1",
     "cypress": "^12.17.4",
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.1",
+    "typescript": "^5.2.2"
   },
   "dependencies": {
     "@testing-library/cypress": "^9.0.0",

@@ -1,0 +1,31 @@
+name: SonarCloud with Cypress
+
+on:
+  push:
+    branches:
+      - main
+      - add_pipeline
+
+jobs:
+  sonarcloud:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Run Cypress Tests
+      run: npm run cypress:run
+
+    - name: SonarCloud Scan
+      run: |
+        npm install -g sonarcloud
+        sonar-scanner -Dsonar.login=${{ secrets.SONAR_TOKEN }}
