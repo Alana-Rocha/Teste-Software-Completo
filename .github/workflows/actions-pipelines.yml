@@ -26,8 +26,3 @@ jobs:
 
       - name: Run Cypress Tests
         run: npm run test
-
-      - name: SonarCloud Scan
-        run: |
-          npm install -g sonarqube-scanner
-          sonar-scanner -Dsonar.login=lucasespassini_Cypress---seu-barriga -Dsonar.host.url=http://localhost:9000
